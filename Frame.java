@@ -139,9 +139,9 @@ public class Frame extends JFrame implements ActionListener
 		frame.add(Output);
 		frame.add(LCD);
 		
-		ImageIcon image = new ImageIcon("Calculator.png");
-		frame.setIconImage(image.getImage());
-		frame.getContentPane().setBackground(new Color(63, 67, 77));
+		//ImageIcon image = new ImageIcon("Calculator.png");
+		//frame.setIconImage(image.getImage());
+		//frame.getContentPane().setBackground(new Color(63, 67, 77));
 		
 	}
 
