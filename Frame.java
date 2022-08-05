@@ -256,7 +256,7 @@ public class Frame extends JFrame implements ActionListener
 			
 			for(int i = 0; st.hasMoreTokens(); i++)
 			{
-				x[i] = Integer.parseInt(st.nextToken());
+				x[i] = Double.parseDouble(st.nextToken());
 			}
 			
 			//break the line into the operators
